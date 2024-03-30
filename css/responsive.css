@@ -1,0 +1,328 @@
+@media only screen and (max-width: 600px) {
+    .section-container{
+        width: 100%;
+        padding: 0px 25px;
+    }
+
+    .section-padding {
+        padding: 30px 0px;
+    }
+
+
+    /* -----------------
+        Logo
+    --------------------- */
+    .logo-center {
+        padding: 30px 0px;
+    }
+
+
+    /* -------------------
+        Home
+    ---------------------- */
+    .home-description {
+        width: 100%;
+    }
+
+    .home-flex {
+        display: flex;
+        gap: 80px;
+        flex-direction: column;
+    }
+
+    .home-description > h1 {
+        font-size: 36px;
+        padding: 20px 0px;
+        line-height: 50px;
+    }
+
+    button.dark-button {
+        margin: 30px 0px 0px 0px;
+    }
+
+    .home-image > img {
+        width: 100%;
+    }
+
+
+    /* ------------------
+        Promotion
+    ------------------------ */
+    .time-section-wrap {
+        gap: 20px;
+        padding: 60px 0px 50px 0px;
+    }
+
+    .count-days {
+        font-size: 30px;
+    }
+
+    .time-name {
+        font-size: 15px;
+    }
+
+    .time-wrapper {
+        padding: 0px;
+    }
+
+
+    /* ------------------
+        Service
+    --------------------- */
+    .service-content {
+        padding-top: 60px;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
+
+    .service-h2 > h2 {
+        font-size: 34px;
+    }
+
+
+    /* -----------------------
+        Testimonial
+    ------------------------- */
+    .testimonial-bg {
+        padding: 30px 0px;
+    }
+
+    .testimonial-text {
+        max-width: 100%;
+    }
+
+    .testimonial-right-icon {
+        transform: translateY(0px);
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        font-size: 65px;
+    }
+
+    .testimonial-left-icon {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        font-size: 65px;
+        margin-top: 25px;
+    }
+
+    .testimonial-text > p {
+        font-size: 18px;
+        line-height: 1.75;
+        padding: 15px 0px;
+        margin-bottom: 15px;
+    }
+
+    
+    /* ------------------
+        Footer
+    --------------------- */
+    .footer-description {
+        padding: 0px 0px;
+    }
+
+    .footer-title > h2 {
+        font-size: 34px;
+    }
+
+    .footer-bottom-text > p {
+        font-size: 14px;
+        line-height: 1.50;
+        padding: 15px 0px;
+    }
+}
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .section-container {
+        width: 100%;
+        padding: 0px 30px;
+    }
+
+    .section-padding {
+        padding: 40px 0px;
+    }
+
+
+    /* ----------------------
+        Logo
+    ------------------------ */
+    .logo-center {
+        padding: 40px 0px 30px 0px;
+    }
+
+
+    /* ----------------------
+        Home
+    ------------------------- */
+    .home-image > img {
+        width: 100%;
+    }
+
+    .home-description > h1 {
+        font-size: 40px;
+        padding: 10px 0px;
+        line-height: 55px;
+    }
+
+    
+    /* ---------------------
+        Promotion
+    ------------------------ */
+    .time-section-wrap {
+        gap: 20px;
+        padding: 80px 0px 50px 0px;
+    }
+
+    .count-days {
+        font-size: 65px;
+    }
+
+    .time-name {
+        font-size: 22px;
+    }
+
+
+    /* ---------------------
+        Service
+    ------------------------- */
+    .service-h2 > h2 {
+        font-size: 40px;
+    }
+
+    .service-content {
+        gap: 20px;
+        padding-top: 50px;
+    }
+
+    .service-text > h3 {
+        min-height: 30px;
+    }
+
+    .service-text > h3 {
+        font-size: 17px;
+        padding: 14px 0px;
+    }
+
+    .service-icon > i {
+        font-size: 55px;
+    }
+
+
+    /* ---------------------
+        Testimonial
+    ------------------------ */
+    .testimonial-text {
+        max-width: 100%;
+    }
+
+    .testimonial-bg {
+        padding: 40px 0px;
+    }
+
+    .testimonial-left-icon {
+        position: relative;
+        top: -350px;
+        left: 90%;
+    }
+
+    .testimonial-right-icon {
+        transform: translateY(350px);
+    }
+
+
+
+    /* -----------------------
+        Footer
+    -------------------------- */
+    .footer-description {
+        padding: 0px;
+    }
+
+    .footer-title > h2 {
+        font-size: 36px;
+    }
+
+    .footer-bottom-text > p {
+        padding: 15px 0px;
+    }
+
+    .modal-dialog {
+        max-width: 90% !important;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+
+@media only screen and (max-width: 1120px) and (min-width: 992px) {
+    /* ---------------------
+        Home
+    ------------------------ */
+    .home-image > img {
+        width: 100%;
+    }
+
+    .home-description > h1 {
+        font-size: 46px;
+        padding: 20px 0px;
+        line-height: 64px;
+    }
+
+
+    /* ---------------------
+        Promotion 
+    ------------------------*/
+    .time-section-wrap {
+        padding: 80px 0px 50px 0px;
+    }
+
+
+    /* --------------------
+        Service
+    ----------------------- */
+    .service-content {
+        gap: 30px;
+    }
+
+    .service-text > h3 {
+        font-size: 17px;
+        height: 50px;
+    }
+
+
+    /* --------------------
+        Testimonial
+    ------------------------ */
+    .testimonial-bg {
+        padding: 20px 0px;
+    }
+
+    .testimonial-text {
+        max-width: 100%;
+    }
+
+    .testimonial-left-icon {
+        position: relative;
+        transform: translate(800px, -280px);
+    }
+
+    .testimonial-right-icon {
+        transform: translateY(270px);
+    }
+
+
+    /* ---------------------
+        Footer
+    ----------------------- */
+    .footer-section {
+        padding-bottom: 50px;
+    }
+
+    .footer-description {
+        padding: 0px;
+    }
+} 
